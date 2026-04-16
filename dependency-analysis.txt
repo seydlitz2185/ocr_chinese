@@ -1,0 +1,44 @@
+TOTAL_PACKAGES=68
+ROOT_PACKAGES=18
+
+[ROOT_PACKAGES]
+dbus-python
+distro-info
+paddlepaddle-gpu
+py-cpuinfo
+pybind11-stubgen
+PyGObject
+python-apt
+python-bidi
+PyYAML
+requests-unixsocket
+ruamel.yaml
+shapely
+shellingham
+tqdm
+typing-inspection
+tzdata
+ujson
+unattended-upgrades
+
+[TOP_DEPENDED_ON]
+packaging <- 8
+numpy <- 6
+typing_extensions <- 6
+traitlets <- 5
+anyio <- 4
+idna <- 4
+Pygments <- 4
+ipykernel <- 3
+ipython <- 3
+requests <- 3
+asttokens <- 2
+certifi <- 2
+decorator <- 2
+exceptiongroup <- 2
+jupyter_core <- 2
+matplotlib-inline <- 2
+pillow <- 2
+psutil <- 2
+pyzmq <- 2
+setuptools <- 2
